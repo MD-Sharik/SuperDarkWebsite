@@ -1,0 +1,146 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Super Dark – Night-Mode on Steroids</title>
+  <link rel="stylesheet" href="style.css" />
+  <link rel="preconnect" href="https://fonts.googleapis.com" />
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;700;900&display=swap" rel="stylesheet" />
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css" />
+  <link rel="shortcut icon" href="logo.png" type="image/x-icon">
+</head>
+<body>
+  <header class="navbar">
+    <div class="container">
+      <a href="#" class="logo">Super Dark</a>
+      <nav class="nav-links">
+        <!-- <a href="#features">Features</a> -->
+        <a href="https://nouvous.com" target="_blank" class="play-badge">
+          <span style="color: gainsboro; font-size:large;">Nouvous</span>
+        </a>
+      </nav>
+      <button class="hamburger" aria-label="Open navigation">
+        <span></span><span></span><span></span>
+      </button>
+    </div>
+  </header>
+
+  <section class="hero">
+    <div class="container hero-grid">
+      <div class="hero-content">
+        <h1><strong><i>Super Dark</i></strong> <span style="font-size: 3.6rem; color: gray;">turns your phone into a midnight ninja.</i></h1>
+        <p style="color: gray;">
+          Scroll at 3 a.m. like the sleep-deprived main character you are. Your phone said "flashbang out!" but we said "nah fam." Keep that TikTok rabbit hole going—we won't snitch on your unhinged 4-hour scrolling bender. It's giving night owl energy, period.
+        </p>
+        <div class="hero-actions">
+          <a href="#download" class="play-badge">
+            <img src="https://play.google.com/intl/en_us/badges/static/images/badges/en_badge_web_generic.png" alt="Get it on Google Play" />
+          </a>
+        </div>
+      </div>
+      <div class="hero-image">
+        <div class="phone-frame">
+          <!-- Replace the placeholder image below with your own screenshot (1080×2340 recommended) -->
+          <img src="hero.png" alt="App screenshot placeholder" />
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <section id="features" class="features">
+    <div class="container">
+      <div class="feature">
+        <div class="feature-icon"><i class="fa-solid fa-moon"></i></div>
+        <h3>Tap once, vanish the light</h3>
+        <p>One tap slaps a <strong>black overlay</strong> on top of screen. Goodbye, retina melt.</p>
+      </div>
+      <div class="feature">
+        <div class="feature-icon"><i class="fa-solid fa-sliders-h"></i></div>
+        <h3>Slide to pitch-black</h3>
+        <p>Drag the slider when you want <strong>even darker</strong> apparently <strong>0%</strong> wasn’t dark enough.</p>
+      </div>
+      <div class="feature">
+        <div class="feature-icon"><i class="fa-solid fa-money-bills"></i></div>
+        <h3>Free Forever</h3>
+        <p>No subscriptions, no hidden fees, enjoy Super Dark for free. You’ll never need to pay a penny.</p>
+      </div>
+    </div>
+  </section>
+
+  
+
+  <section class="features-list">
+    <div class="container">
+      <ul style="color: gray;">
+        <li><i style="color: gray;" class="fa-solid fa-check"></i>System-wide: works over every app, even the stubborn ones</li>
+        <li><i style="color: gray;" class="fa-solid fa-check"></i> zero tracking—because darkness sees all</li>
+        <li><i style="color: gray;" class="fa-solid fa-check"></i>Ultra-dark AMOLED friendly (saves battery too, you're welcome)</li>
+        <!-- <li><i class="fa-solid fa-check"></i>Schedules itself at sunset, like a polite vampire</li> -->
+        <li><i style="color: gray;" class="fa-solid fa-check"></i>Free to use, tip if you’re feeling generous (or guilty)</li>
+      </ul>
+    </div>
+  </section>
+<!-- 
+  <section class="testimonials">
+    <div class="container">
+      <h2>Praise (and mild fear) for Super Dark</h2>
+      <div class="testimonials-grid">
+        <blockquote>
+          <p>
+            "The app that finally made my phone stop doubling as a flashlight."
+          </p>
+          <cite>Hosting Advice</cite>
+        </blockquote>
+        <blockquote>
+          <p>
+            "Since installing Super Dark, I can doom-scroll till dawn and still recognise colours at breakfast."
+          </p>
+          <cite>Daring Fireball</cite>
+        </blockquote>
+        <blockquote>
+          <p>
+            "Super Dark: because regular dark mode is just ‘darkish’."
+          </p>
+          <cite>Macworld</cite>
+        </blockquote>
+        <blockquote>
+          <p>
+            "Finally, an app that understands my fear of bright pixels."
+          </p>
+          <cite>Mac Life</cite>
+        </blockquote>
+      </div>
+    </div>
+  </section> -->
+
+  <footer class="site-footer" >
+    <div class="container footer-grid">
+      <div class="footer-logo">Super Dark</div>
+      <nav class="footer-nav">
+        <a href="#">FAQ</a>
+        <a href="#">Privacy</a>
+        <a href="#">Terms</a>
+        <a href="#">Security</a>
+      </nav>
+      <a href="#" class="play-badge"><img src="https://play.google.com/intl/en_us/badges/static/images/badges/en_badge_web_generic.png" alt="Get it on Google Play" /></a>
+      
+    </div>
+    <p class="copyright">
+        &copy; 2025 Super Dark. Built &amp; maintained by <a href="https://nouvous.com" target="_blank">Nouvous</a>.
+      </p>
+   
+  </footer>
+
+  <script>
+    // Mobile nav toggle
+    const hamburger = document.querySelector(".hamburger");
+    const nav = document.querySelector(".nav-links");
+    hamburger.addEventListener("click", () => {
+      nav.classList.toggle("open");
+      hamburger.classList.toggle("open");
+    });
+  </script>
+</body>
+</html> 
